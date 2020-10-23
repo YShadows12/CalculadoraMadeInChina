@@ -28,11 +28,17 @@ namespace CalculadoraMadeInChina
             System.Console.WriteLine("7) Averiguar si tu número es primo");
         }
 
-        public static void PrintAddMenu()
+        public static void PrintAddHeader()
         {
             System.Console.WriteLine("Suma de números");
             System.Console.WriteLine("---------------------------");
 
+        }
+        public static void PrintAddSubmenu()
+        {
+            System.Console.WriteLine("0) Menu principal");
+            System.Console.WriteLine("1) Sumar otro número");
+            System.Console.WriteLine("2) Comenzar nueva suma");
         }
 
         public static int ReadOption()
